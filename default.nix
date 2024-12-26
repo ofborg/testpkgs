@@ -28,4 +28,3 @@ if !builtins ? nixVersion || builtins.compareVersions requiredVersion builtins.n
 else
 
   import ./pkgs/top-level/impure.nix
-  # test
